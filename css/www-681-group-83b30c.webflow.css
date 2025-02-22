@@ -90,6 +90,13 @@ img {
   display: inline-block;
 }
 
+.img-round {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .hero {
   min-height: 540px;
   background-image: linear-gradient(rgba(0, 0, 0, .57), #222), url('../images/Electrical_Work_London_1342505734_web3.jpg');
