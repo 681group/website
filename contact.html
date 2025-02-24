@@ -40,59 +40,7 @@
   <div>
     <div class="w-container">
       <div class="form w-form">
-      <form action="https://api.web3forms.com/submit" method="POST">
-
-    <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
-    <!-- Create your Access key here: https://web3forms.com/ -->
-    <!-- <input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE"> -->
-    <input type="hidden" name="access_key" value="72508747-7a85-452e-9c85-a60d6c92f390">
-
-    <!-- Optional: Can be type="hidden" or type="text" for subject -->
-    <input type="hidden" name="subject" value="New Submission from Web3Forms">
-  
-    <!-- Optional: From Name you want to see in the email
-          Default is "Notifications". you can overwrite here -->
-    <input type="hidden" name="from_name" value="www.681.group">
-  
-    <!-- Optional: To send the form submission as CC email -->
-    <input type="hidden" name="ccemail" value="partner@example.com">
-
-    <!-- Optional: default replyto will be "email" (if available), 
-         you may overwrite here -->
-    <input type="hidden" name="replyto" value="office@681.group">
-
-    <!-- Required: if submitting without Javascript 
-         (because by default web3form outputs json) -->
-
-    <!-- If javascript, use "window.location.hash" for redirects -->
-    <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-    <!-- Optional: But Recommended: To Prevent SPAM Submission. 
-         Make sure its hidden by default -->
-    <input type="checkbox" name="botcheck" id="" style="display: none;">
-    
-    <!-- Webhooks: Send your form data to Notion, Google Sheets or Zapier.
-         This feature available to PRO & Starter Plan users only -->
-    <input type="hidden" name="webhook" value="WEBHOOK_URL_HERE" />
-
-    <!-- Google reCaptcha v3: To Prevent SPAM Submission.PRO Plan only -->
-    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-    
-    <!-- Attachments: Make sure the <form> has enctype="multipart/form-data"
-         This feature available to PRO Plan users only -->
-    <input type="file" name="attachment" />
-
-    <!-- Custom Form Data: 
-     Then you can include your own form data you wish to receive in email. -->
-    <input type="email" name="email" required>
-    <input type="text" name="First Name" required>
-    <input type="text" name="Phone Number" required>
-    <textarea name="message" cols="30" rows="10" required></textarea>
-
-    <button type="submit">Submit Form</button>
-
-    </form>
-        
+        <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="65da9f92ccc1b21e49d59985" data-wf-element-id="67de8170-af48-4b93-d21c-023ab4113e28"><label for="name" class="field">Name</label><input class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" type="text" id="name"><label for="email" class="field">Email Address</label><input class="input w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" type="email" id="email" required=""><label for="field" class="field">Message</label><textarea id="field" name="field" placeholder="Example Text" maxlength="5000" data-name="field" class="input text-area w-input"></textarea><input type="submit" data-wait="Please wait..." class="button submit w-button" value="Submit"></form>
         <div class="success w-form-done">
           <p class="success-message">Thank you! We&#x27;ll be in touch shortly.</p>
         </div>
