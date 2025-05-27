@@ -220,6 +220,7 @@ h2 {
   font-size: 32px;
   line-height: 36px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 h3 {
   font-size: 24px;
@@ -1830,13 +1831,6 @@ textarea.w-select {
     max-width: 360px;
     text-align: center;
     box-sizing: border-box;
-}
-
-h2 {
-    color: #fff;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 600;
 }
 
 .login-form .input-group {
