@@ -1828,7 +1828,7 @@ textarea.w-select {
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     width: 100%;
-    max-width: 50%;
+    max-width: 400px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -1895,7 +1895,7 @@ textarea.w-select {
 
 .forgot-password a:hover {
     text-decoration: underline;
-    color: #524b33;
+    color: #fff;
 }
 
 .or-separator {
@@ -1951,7 +1951,7 @@ textarea.w-select {
 
 .signup-link a:hover {
     text-decoration: underline;
-    color: #524b33;
+    color: #fff;
 }
 
 /* Responsive adjustments */
