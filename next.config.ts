@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
      unoptimized: true,
    },
    
-   basePath: '/website',
    devIndicators: false,
    reactStrictMode: true,
 
