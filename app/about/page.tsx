@@ -36,7 +36,7 @@ export default function About() {
         </nav>
 
         <div className="section" style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
-        <div><h2 style={{ fontSize: "1.7rem", marginBottom: "1.5rem", color: "#bdbdbd"}}>A Little About Us</h2></div>
+        <div><h2 style={{ fontSize: "1.7rem", marginBottom: "1rem", color: "#bdbdbd"}}>A Little About Us</h2></div>
         <div style={{ padding: "20px" }}><h5>MISSION: <br/>To be the building and maintenance contractor of choice in London for 
             commercial builders, home builders, property managers and homeowners. 
             Always delivering on time up to highest standards.</h5>
